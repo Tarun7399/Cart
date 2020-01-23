@@ -421,6 +421,7 @@ function upar(t,tp)
 
 function paneldom1(tp)
 {
+	deleteNewProductPanel();
 	//console.log(tp.childNodes[0].childNodes[0]);
 	var n1=tp.childNodes[0].childNodes[1].nodeValue;
 	hideAddNewProductLink();
